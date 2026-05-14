@@ -3,7 +3,6 @@ const Header = () => {
   const navigate = useNavigate();
   return (
     <div>
-      {" "}
       <button onClick={() => navigate("/", { replace: true })}>home</button>
       <button onClick={() => navigate("/login", { replace: true })}>
         login
